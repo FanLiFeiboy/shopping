@@ -1,0 +1,13 @@
+ create table `goods` (
+        id int primary key auto_increment,
+        `region` varchar(20),
+        `goodsName` varchar(20),
+        `shapeCode` varchar(20),
+        `purchasingPrice` int,
+        `marketPrice` int,
+        `goodsPrice` int,
+        `goodsUnivalence` int,
+        `discounts` varchar(20),
+        `promotion` varchar(20),
+        `ctime` timestamp default current_timestamp
+    );	
